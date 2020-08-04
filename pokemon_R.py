@@ -1,5 +1,5 @@
 from __main__ import app
-from flask import request
+from flask import request # https://stackoverflow.com/questions/10434599/get-the-data-received-in-a-flask-request
 import Pokemon
 
 '''
