@@ -16,10 +16,10 @@ def getPokemonById(id):
 
 @app.route('/pokemon', methods=['POST'])
 def createPokemon():
-    data = request.form
+    data = request.json
     return Pokemon.createOne(data)
 
 @app.route('/pokemon/<string:id>', methods=['PUT'])
 def updatePokemon(id):
-    data = request.form
+    data = request.json
     return Pokemon.updateOne(id, data)
