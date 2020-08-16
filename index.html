@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Update Pokemon DB</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="get_container">
+    <h2>Get</h2>
+    <label>ID</label>
+    <input type="text" id="get_id"><br>
+    <button id="get_submit">Get</button>
+    <p id="get_result"></p>
+  </div>
+  <div class="insert_container">
+    <h2>Insert</h2>
+    <label>Pokemon Name</label>
+    <input type="text" id="insert_name"><br>
+    <label>Pokemon Type ID</label>
+    <input type="text" id="insert_type_id"><br>
+    <button id="insert_submit">Insert</button>
+    <p id="insert_result"></p>
+  </div>
+  <div class="update_container">
+    <h2>Update</h2>
+    <label>ID</label>
+    <input type="text" id="update_id"><br>
+    <label>Pokemon Name</label>
+    <input type="text" id="update_name"><br>
+    <label>Pokemon Type ID</label>
+    <input type="text" id="update_type_id"><br>
+    <button id="update_submit">Update</button>
+    <p id="update_result"></p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./axios.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

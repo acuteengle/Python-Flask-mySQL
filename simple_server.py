@@ -10,6 +10,10 @@ import mysql.connector
 
 import json
 
+# https://flask-cors.corydolphin.com/en/latest/index.html
+from flask_cors import CORS
+cors = CORS(app, resources={r"/api/*": {"origins": "http://127.0.0.1:5500"}})
+
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",

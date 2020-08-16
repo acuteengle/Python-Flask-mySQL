@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana;
+}
+
+input {
+    margin: 10px;
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.get_container {
+    background-color: aquamarine;
+}
+
+.insert_container {
+    background-color: lightcoral;
+}
+
+.update_container {
+    background-color: lightblue;
+}
